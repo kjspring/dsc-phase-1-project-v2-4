@@ -43,17 +43,26 @@ Microsoft is creating a new movie studio and wants to know what types of movies 
 In the folder `zippedData` are movie datasets from:
 
 * `bom.movie_gross.csv.gz`: [Box Office Mojo](https://www.boxofficemojo.com/)
+	* stored in compressed CSV
+	* contains domestic and foreign gross revenue
 * `tn.movie_budget.csv.gz`: [The Numbers](https://www.the-numbers.com/)
+	* stored in compressed cSV
+	* contains production budget
 
 Box Office Mojo and The Numbers data are stored in compressed CSV (comma-separated values).
 
 * `im.db.zip`: [IMDB](https://www.imdb.com/)
+	* stored in a SQLite database
+	* contains user generated rankings on a scale of 0 - 10 with 0 being the worse and 10 the best
 
 Data from IMDB is located in a SQLite database.
 
 ## Data Analysis and Recommendations
 
+### Movie genre does not have an affect on IMDb 
+
 ###  Movie genre should be a combination of Action, Adventure, Animation, or Sci-Fi
+* Generate the most worldwide gross revenue
 ![Average Revenue by Genre](./img/fig/barplot_genre_revenue.png)
 ###  The movie should be released in Q2 or Q4
 ![Revenue by quarterly release time](./img/fig/barplot_comp_quarter.png)
