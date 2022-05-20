@@ -1,7 +1,17 @@
 # Microsoft Movie Studio New Movie Production Recommendation
+       
+       * Conclusion
+          * Summary of conclusions including three relevant findings
+
+## Overview
+
 
 ## Objective - Business Problem
 Microsoft is creating a new movie studio and wants to know what types of movies they should create. This project will explore what types of movies are currently doing the best at the box office and recommend what types of movies Microsoft should create.
+
+* What movie genres should Microsoft Movie Stuios focus on?
+* When should these movies be released?
+* How much should be budgeted for produciton of each movie?
 
 ## Deliverables
 * [Presentation:  Genre, Release Time, and Budget for Microsoft Movie Studio](https://docs.google.com/presentation/d/1FRCtFUkY__pndP7pPa4Z1vMWZ-83tGATsAjRPp5Ye9U/edit?usp=sharing)
@@ -26,13 +36,8 @@ Microsoft is creating a new movie studio and wants to know what types of movies 
 2. Raw data is sttored [here](../zippedData)
 	* Import necessary data
 3. Exploratory Data Analysis
-
-
-
-## Project Overview
-
-For this project, I will use exploratory data analysis to generate insights for a business stakeholder.
-
+	* 
+4. Plot visualizations
 
 ### The Data
 
@@ -42,19 +47,18 @@ In the folder `zippedData` are movie datasets from:
 * [IMDB](https://www.imdb.com/)
 * [The Numbers](https://www.the-numbers.com/)
 
-Because it was collected from various locations, the different files have different formats. Some are compressed CSV (comma-separated values) or TSV (tab-separated values) files that can be opened using spreadsheet software or `pd.read_csv`, while the data from IMDB is located in a SQLite database.
+Box Office Mojo and The Numbers data are stored in compressed CSV (comma-separated values) while the data from IMDB is located in a SQLite database.
 
-![movie data erd](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project-v2-4/master/movie_data_erd.jpeg)
+#### Data Description
 
-Note that the above diagram shows ONLY the IMDB data. You will need to look carefully at the features to figure out how the IMDB data relates to the other provided data files.
+## Data Analysis and Recommendations
 
-It is up to you to decide what data from this to use and how to use it. If you want to make this more challenging, you can scrape websites or make API calls to get additional data. If you are feeling overwhelmed or behind, we recommend you use only the following data files:
-
-* `im.db.zip`
-  * Zipped SQLite database (you will need to unzip then query using SQLite)
-  * `movie_basics` and `movie_ratings` tables are most relevant
-* `bom.movie_gross.csv.gz`
-  * Compressed CSV file (you can open without expanding the file using `pd.read_csv`)
+* Movie genre should be a combination of Action, Adventure, Animation, or Sci-Fi
+![Average Revenue by Genre](./img/fig/barplot_genre_revenue.png)
+* The movie should be released in Q2 or Q4
+![Revenue by quarterly release time](./img/fig/barplot_comp_quarter.png)
+* Expect to budget between $100 million to $250 million per movie
+![Average Buget by Genre](./img/fig/barplot_genre_budget.png)
 
 ### Key Points
 
@@ -142,18 +146,7 @@ This repository link will be the project link that you include on your resume, L
 
 A professional GitHub repository has:
 
-1. `README.md`
-    * A file called `README.md` at the root of the repository directory, written in Markdown; this is what is rendered when someone visits the link to your repository in the browser
-    * This file contains these sections:
-       * Overview
-       * Business Understanding
-          * Include stakeholder and key business questions
-       * Data Understanding and Analysis
-          * Source of data
-          * Description of data
-          * Three visualizations (the same visualizations presented in the slides and notebook)
-       * Conclusion
-          * Summary of conclusions including three relevant findings
+
 2. Commit history
    * Progression of updates throughout the project time period, not just immediately before the deadline
    * Clear commit messages
