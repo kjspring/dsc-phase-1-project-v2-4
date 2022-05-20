@@ -1,20 +1,34 @@
-# Phase 1 Project Description
+# Microsoft Movie Studio New Movie Production Recommendation
+
+## Objective - Business Problem
+Microsoft is creating a new movie studio and wants to know what types of movies they should create. This project will explore what types of movies are currently doing the best at the box office and recommend what types of movies Microsoft should create.
+
+## Deliverables
+* Presentation - Genre, Release Time, and Budget for Microsoft Movie Studio
+* Jupyter Notebook
+* GitHub Repository
+
+## Repository Navigation
 
 
-In this project description, we will cover:
+## Technologies
+* Python
+* pandas library
+* matplotlib library
+* sqlite3 library
 
-* [***Project Overview:***](#project-overview) the project goal, audience, and dataset
-* [***Deliverables:***](#deliverables) the specific items you are required to produce for this project
-* [***Grading:***](#grading) how your project will be scored
-* [***Getting Started:***](#getting-started) guidance for how to begin your first project
+## Methods
+1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
+2. Raw data is sttored [here](../zippedData)
+	* Import necessary data
+3. Exploratory Data Analysis
+
+
 
 ## Project Overview
 
 For this project, I will use exploratory data analysis to generate insights for a business stakeholder.
 
-### Business Problem
-
-Microsoft sees all the big companies creating original video content and they want to get in on the fun. They have decided to create a new movie studio, but they don’t know anything about creating movies. You are charged with exploring what types of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the head of Microsoft's new movie studio can use to help decide what type of films to create.
 
 ### The Data
 
@@ -22,8 +36,6 @@ In the folder `zippedData` are movie datasets from:
 
 * [Box Office Mojo](https://www.boxofficemojo.com/)
 * [IMDB](https://www.imdb.com/)
-* [Rotten Tomatoes](https://www.rottentomatoes.com/)
-* [TheMovieDB](https://www.themoviedb.org/)
 * [The Numbers](https://www.the-numbers.com/)
 
 Because it was collected from various locations, the different files have different formats. Some are compressed CSV (comma-separated values) or TSV (tab-separated values) files that can be opened using spreadsheet software or `pd.read_csv`, while the data from IMDB is located in a SQLite database.
