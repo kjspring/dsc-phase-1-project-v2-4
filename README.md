@@ -58,7 +58,7 @@ Box Office Mojo and The Numbers data are stored in compressed CSV (comma-separat
 ## Data Analysis and Recommendations
 
 ### Movie genre does not have an effect on IMDb 
-* More profitable movies do not on average much difference in user ranking
+* More profitable movies do not on average have much difference in user ranking
 
 ![IMDb Ranking by Movie Genre](./img/fig/barplot_genre_ranking.png)
 
@@ -68,7 +68,7 @@ Box Office Mojo and The Numbers data are stored in compressed CSV (comma-separat
 ![Average Revenue by Genre](./img/fig/barplot_genre_revenue.png)
 
 ###  The movie should be released in Q2 or Q4
-* Q2 and Q4 have the highest revenue
+* Q2 and Q4 have the highest revenue because these are when people are working less
 
 ![Revenue by quarterly release time](./img/fig/barplot_comp_quarter.png)
 
@@ -78,5 +78,10 @@ Box Office Mojo and The Numbers data are stored in compressed CSV (comma-separat
 ![Average Budget by Genre](./img/fig/barplot_genre_budget.png)
 
 ## Conclusions
-* Summary of conclusions including three relevant findings
+Microsoft wants a part of the $136 billion global movie industry by creating highly ranked and profitable movies. Microsoft is positioned well with its brand recognition and streaming services to capture most of the revenue generated after a movie's theatrical release.
+
+* Microsoft should focus on action, adventure, animation, or science fiction genres
+* The movies should be released in the summer during Q2 or during the fall or winter holidays in Q4
+* The average budget needed for these genres is $100 million.
+
 
