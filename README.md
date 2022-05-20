@@ -31,7 +31,7 @@ Microsoft is creating a new movie studio and wants to know what types of movies 
 
 ## Methods
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Gather and import raw data
+2. Gather and import [raw data](./zippedData)
 3. Combine, join, and clean data
 3. Exploratory Data Analysis to form recommendations
 4. Plot visualizations
