@@ -1,14 +1,15 @@
-# Microsoft Movie Studio New Movie Production Recommendation
+# Microsoft Movie Studio Production Recommendations
        
 ## Overview
+In 2021, digital, theatrical, and physical sales of movies were $136.5 billion globally and $36.8 billion in the United States. Digital sales account for 80% of revenue, theatrical sales are 12%, and physical media is the remaining 8%.
 
+Microsoft is creating a new movie studio and wants to know what types of movies they should create to tap into this industry. This project will explore what types of movies are currently doing the best at the box office and recommend what types of movies Microsoft should create.
 
-## Objective - Business Problem
-Microsoft is creating a new movie studio and wants to know what types of movies they should create. This project will explore what types of movies are currently doing the best at the box office and recommend what types of movies Microsoft should create.
+## Objective - Business Questions
 
-* What movie genres should Microsoft Movie Stuios focus on?
+* What movie genres should Microsoft Movie Studios focus on?
 * When should these movies be released?
-* How much should be budgeted for produciton of each movie?
+* How much should be budgeted for the production of each movie?
 
 ## Deliverables
 * [Presentation:  Genre, Release Time, and Budget for Microsoft Movie Studio](https://docs.google.com/presentation/d/1FRCtFUkY__pndP7pPa4Z1vMWZ-83tGATsAjRPp5Ye9U/edit?usp=sharing)
@@ -30,10 +31,9 @@ Microsoft is creating a new movie studio and wants to know what types of movies 
 
 ## Methods
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw data is sttored [here](../zippedData)
-	* Import necessary data
-3. Exploratory Data Analysis
-	* 
+2. Gather and import raw data
+3. Combine, join, and clean data
+3. Exploratory Data Analysis to form recommendations
 4. Plot visualizations
 
 ### The Data
@@ -53,7 +53,7 @@ Box Office Mojo and The Numbers data are stored in compressed CSV (comma-separat
 
 * `im.db.zip`: [IMDB](https://www.imdb.com/)
 	* stored in a SQLite database
-	* contains user generated rankings on a scale of 0 - 10 with 0 being the worse and 10 the best
+	* contains user-generated rankings on a scale of 0 - 10 with 0 being the worse and 10 the best
 
 ## Data Analysis and Recommendations
 
@@ -75,7 +75,7 @@ Box Office Mojo and The Numbers data are stored in compressed CSV (comma-separat
 ###  Expect to budget between $100 million per movie
 * The highest revenue generators also have the highest production budgets
 
-![Average Buget by Genre](./img/fig/barplot_genre_budget.png)
+![Average Budget by Genre](./img/fig/barplot_genre_budget.png)
 
 ## Conclusions
 * Summary of conclusions including three relevant findings
