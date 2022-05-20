@@ -55,18 +55,28 @@ Box Office Mojo and The Numbers data are stored in compressed CSV (comma-separat
 	* stored in a SQLite database
 	* contains user generated rankings on a scale of 0 - 10 with 0 being the worse and 10 the best
 
-Data from IMDB is located in a SQLite database.
-
 ## Data Analysis and Recommendations
 
+
+
 ### Movie genre does not have an affect on IMDb 
+* More profitable movies do not on average much difference in user ranking
+
+![IMDb Ranking by Movie Genre](./img/fig/barplot_genre_ranking.png)
 
 ###  Movie genre should be a combination of Action, Adventure, Animation, or Sci-Fi
 * Generate the most worldwide gross revenue
+
 ![Average Revenue by Genre](./img/fig/barplot_genre_revenue.png)
+
 ###  The movie should be released in Q2 or Q4
+* Q2 and Q4 have the highest revenue
+
 ![Revenue by quarterly release time](./img/fig/barplot_comp_quarter.png)
+
 ###  Expect to budget between $100 million to $250 million per movie
+* The highest revenue generators also have the highest production budgets
+
 ![Average Buget by Genre](./img/fig/barplot_genre_budget.png)
 
 ## Conclusions
