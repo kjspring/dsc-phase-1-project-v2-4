@@ -57,7 +57,7 @@ Box Office Mojo and The Numbers data are stored in compressed CSV (comma-separat
 
 ## Data Analysis and Recommendations
 
-### Movie genre does not have an affect on IMDb 
+### Movie genre does not have an effect on IMDb 
 * More profitable movies do not on average much difference in user ranking
 
 ![IMDb Ranking by Movie Genre](./img/fig/barplot_genre_ranking.png)
