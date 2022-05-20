@@ -16,10 +16,10 @@ Microsoft is creating a new movie studio and wants to know what types of movies 
 * [project_notebook.ipynb](project_notebook.ipynb) - Jupyter Notebook 
 
 ## Technologies
-* Python
-* pandas library
-* matplotlib library
-* sqlite3 library
+* [Python](https://www.python.org/)
+* [pandas](https://pandas.pydata.org/) library
+* [matplotlib](https://matplotlib.org/) library
+* [sqlite3](https://docs.python.org/3/library/sqlite3.html) library
 
 ## Methods
 1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
