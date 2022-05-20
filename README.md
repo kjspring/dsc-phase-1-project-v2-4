@@ -9,11 +9,11 @@ Microsoft is creating a new movie studio and wants to know what types of movies 
 * GitHub Repository
 
 ## Repository Navigation
-* [./img](./img) - contains image files
-* [./img/fig](./img/fig] - stores plots and figures created with the analysis
-* ./zippedData - stores data used for this analysis
-* ./license - contains the license information
-* project_notebook.ipynb - Jupyter Notebook 
+* [/img](./img) - contains image files
+* [/img/fig](./img/fig) - stores plots and figures created with the analysis
+* [/zippedData](./zippedData) - stores data used for this analysis
+* [/license](./license) - contains the license information
+* [project_notebook.ipynb](project_notebook.ipynb) - Jupyter Notebook 
 
 ## Technologies
 * Python
