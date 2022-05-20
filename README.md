@@ -4,7 +4,7 @@
 Microsoft is creating a new movie studio and wants to know what types of movies they should create. This project will explore what types of movies are currently doing the best at the box office and recommend what types of movies Microsoft should create.
 
 ## Deliverables
-* Presentation - Genre, Release Time, and Budget for Microsoft Movie Studio
+* [Presentation:  Genre, Release Time, and Budget for Microsoft Movie Studio](https://docs.google.com/presentation/d/1FRCtFUkY__pndP7pPa4Z1vMWZ-83tGATsAjRPp5Ye9U/edit?usp=sharing)
 * Jupyter Notebook
 * GitHub Repository
 
