@@ -72,7 +72,7 @@ Box Office Mojo and The Numbers data are stored in compressed CSV (comma-separat
 
 ![Revenue by quarterly release time](./img/fig/barplot_comp_quarter.png)
 
-###  Expect to budget between $100 million to $250 million per movie
+###  Expect to budget between $100 million per movie
 * The highest revenue generators also have the highest production budgets
 
 ![Average Buget by Genre](./img/fig/barplot_genre_budget.png)
