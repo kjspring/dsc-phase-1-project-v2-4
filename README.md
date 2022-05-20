@@ -1,8 +1,5 @@
 # Microsoft Movie Studio New Movie Production Recommendation
        
-       * Conclusion
-          * Summary of conclusions including three relevant findings
-
 ## Overview
 
 
@@ -56,13 +53,13 @@ Data from IMDB is located in a SQLite database.
 
 ## Data Analysis and Recommendations
 
-* Movie genre should be a combination of Action, Adventure, Animation, or Sci-Fi
+###  Movie genre should be a combination of Action, Adventure, Animation, or Sci-Fi
 ![Average Revenue by Genre](./img/fig/barplot_genre_revenue.png)
-* The movie should be released in Q2 or Q4
+###  The movie should be released in Q2 or Q4
 ![Revenue by quarterly release time](./img/fig/barplot_comp_quarter.png)
-* Expect to budget between $100 million to $250 million per movie
+###  Expect to budget between $100 million to $250 million per movie
 ![Average Buget by Genre](./img/fig/barplot_genre_budget.png)
 
-## Summary
-
+## Conclusions
+* Summary of conclusions including three relevant findings
 
