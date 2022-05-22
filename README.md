@@ -58,22 +58,22 @@ Box Office Mojo and The Numbers data are stored in compressed CSV (comma-separat
 ## Data Analysis and Recommendations
 
 ### Movie genre does not have an effect on IMDb 
-* More profitable movies do not on average have much difference in user ranking
+* The median IMDb ranking for all analyzed movies was 6.5 and the rankings between the different genres is very different.
 
 ![IMDb Ranking by Movie Genre](./img/fig/barplot_genre_ranking.png)
 
 ###  Movie genre should be a combination of Action, Adventure, Animation, or Sci-Fi
-* Generate the most worldwide gross revenue
+* These genres generated the most worldwide revenue.
 
 ![Average Revenue by Genre](./img/fig/barplot_genre_revenue.png)
 
 ###  The movie should be released in Q2 or Q4
-* Q2 and Q4 have the highest revenue because these are when people are working less
+* Q2 and Q4 have the highest revenue because these are when people have more time as they are on holiday, working less, and not in school.
 
 ![Revenue by quarterly release time](./img/fig/barplot_comp_quarter.png)
 
 ###  Expect to budget $60 million to $100 million per movie
-* The highest revenue generators also have the highest production budgets
+* The highest revenue generators also have the highest production budgets.
 
 ![Average Budget by Genre](./img/fig/barplot_genre_budget.png)
 
