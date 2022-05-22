@@ -72,7 +72,7 @@ Box Office Mojo and The Numbers data are stored in compressed CSV (comma-separat
 
 ![Revenue by quarterly release time](./img/fig/barplot_comp_quarter.png)
 
-###  Expect to budget $100 million per movie
+###  Expect to budget $60 million to $100 million per movie
 * The highest revenue generators also have the highest production budgets
 
 ![Average Budget by Genre](./img/fig/barplot_genre_budget.png)
@@ -82,6 +82,6 @@ Microsoft wants a part of the $136 billion global movie industry by creating hig
 
 * Microsoft should focus on action, adventure, animation, or science fiction genres
 * The movies should be released in the summer during Q2 or during the fall or winter holidays in Q4
-* The average budget needed for these genres is $100 million.
+* The budget needed for these genres is between $60 million to $100 million.
 
 
